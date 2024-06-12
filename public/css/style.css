@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900& display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image :url('assets.css/hutan.jpg');
+    background-size: cover;
+}
+.wapper{
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: Blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.wapper h1 u {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.wapper h1 {
+    font-size: 36px;
+    text-align: center;
+}
+.wapper .input-box {
+position: relative;
+width: 100%;
+height: 50px;
+margin: 30px 0;
+}
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+
+.input-box input::placeholder {
+    color: #fff;
+}
+.input-box i {
+    position:absolute ;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.wapper .remember-forgot {
+    display: flex;
+    justify-content: right;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+.remember-forgot label input{
+    accent-color: #fff;
+    margin-right: 3px;
+}
+
+.remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+    padding-right: 100px;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.remember-forgot label input{
+    accent-color: #fff;
+    margin-right: 3px;
+}
+
+.remember-forgot a{
+    color: #fff;
+    transition: none;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.wapper .btn {
+    width: 100%;
+    height: 45px;
+    background: #ebd530;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.wapper .btn:hover {
+    opacity: 0.6
+}
+
+.wapper .btn:active {
+    background-color: #edf2ed;
+}
+
+.wapper .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px;
+    margin: 20px 0 15px;
+}
+
+.register-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 100px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .logo {
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+    cursor: default;
+  }
+  .navbar a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 35px;
+    transition: 0.3s;
+  }
+  .navbar a:hover {
+    color: #db8235;
+    text-decoration: underline;
+  }
+  .logo {
+    width: 60px;
+    height: 60px;
+    margin-left: 40px;
+  }
+
+  .toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.input-box {
+    position: relative;
+}
